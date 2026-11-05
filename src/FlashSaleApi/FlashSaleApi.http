@@ -1,0 +1,9 @@
+# 用 VS Code 的 REST Client 擴充套件開啟，點每個請求上方的「Send Request」
+@host = http://localhost:5100
+
+### 健康檢查
+GET {{host}}/api/health
+Accept: application/json
+
+### API 文件（OpenAPI JSON）
+GET {{host}}/openapi/v1.json

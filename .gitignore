@@ -1,0 +1,23 @@
+# .NET 編譯輸出
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+
+# 環境變數與密碼（範本請另外放 .env.example）
+.env
+*.env
+!.env.example
+appsettings.*.local.json
+
+# 測試與壓測輸出
+TestResults/
+coverage/
+k6-results/
+
+# macOS
+.DS_Store
